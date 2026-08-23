@@ -1,385 +1,920 @@
 Package: com.example.aicarbridge
-Name: AI Voice Assistant
-Version: 0.4.4
+Version: 0.1.0
 Architecture: iphoneos-arm64
-Description: Vietnamese-first hands-free assistant with resilient CarPlay Settings injection across iOS controller variants, no car-display settings UI, CarPlay auto-start, local voice commands, confirmations, TTS, and Maps/media handoff.
-Maintainer: AI Voice Assistant Contributors
-Author: AI Voice Assistant Contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Conflicts: com.cortex.carplayenable
-Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.4_iphoneos-arm64.deb
-Size: 47668
-SHA256: 0dd177d4fb25b14538fb97919282b241f9d111ad0af048d78b17ea274d5b3e70
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64
-Version: 0.2.5
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.5_iphoneos-arm64.deb
-Size: 47714
-SHA256: c4598695afbc375c6d45b7c105fe824c959eb8f574ec959fca2fe7e2d19eea77
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64e
-Version: 0.2.5+roothide
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.5+roothide_iphoneos-arm64e.deb
-Size: 47608
-SHA256: 6fb3298674bd56d59412af9aa4aeaa4a45374264743345eb4bd4b1c640d60b6c
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64
-Version: 0.2.4
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.4_iphoneos-arm64.deb
-Size: 46260
-SHA256: 28581c9dc0619b5f0a8e5d884f97b244e8d57798f3cdbe6cb876861160d62bd5
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64e
-Version: 0.2.4+roothide
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.4+roothide_iphoneos-arm64e.deb
-Size: 46562
-SHA256: ceb4acefc23f8cae85bca8c03038c660f4ee0dd5defb8e6f7da3498be07974e1
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: CarPlay split for Google Maps and YouTube with iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64
-Version: 0.2.3
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.3_iphoneos-arm64.deb
-Size: 40086
-SHA256: c03d051400fd6a2ec1430157426538290d88e7f47b890d3668b9d900e7afdcd7
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: CarPlay split for Google Maps and YouTube with iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64e
-Version: 0.2.3+roothide
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.3+roothide_iphoneos-arm64e.deb
-Size: 39980
-SHA256: b1c91652d04c806ffa525a437bf509c76d5eeeb3f3151260706e8457e4581694
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; targets the iOS 16 CarPlay host and native RootHide system injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Version: 0.2.2
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.2_iphoneos-arm64.deb
-Size: 35546
-SHA256: 08dcda772ec656f3004a48ab733d4c2d385d8f63334866a23c31cdbc5a8e6679
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; targets the iOS 16 CarPlay host and native RootHide system injection.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Version: 0.2.2+roothide
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.2+roothide_iphoneos-arm64e.deb
-Size: 35576
-SHA256: a6e465d4041c01b8f2adf37f563034c1a752f0826827b69072a70ecd7d38c191
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; native rootless and RootHide builds.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Version: 0.2.1
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.1_iphoneos-arm64.deb
-Size: 35152
-SHA256: f1b97b07b7c3af0b3a4d6a7a03e6c72370313dc4c150eb79a3c49e5ba3843acc
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; native rootless and RootHide builds.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Version: 0.2.1+roothide
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.1+roothide_iphoneos-arm64e.deb
-Size: 35096
-SHA256: 77ec48d23e1f6356351d1b12d6e58054524918d8086c03b9f1aba85194a0c020
-
-Package: com.example.carplaysplit
-Name: CarPlay Split
-Description: Experimental rootless CarPlay split host for Google Maps and YouTube with Vietnamese assistant.
-Maintainer: CarPlay Split contributors
-Author: CarPlay Split contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Version: 0.2.0
-Filename: CarPlay-Split/com.example.carplaysplit_0.2.0_iphoneos-arm64.deb
-Size: 35190
-SHA256: 3adf5e8dc79b5ad7bfe05bc8e16515324d264068a8296ebb5681b15fd0eb0092
-
-Package: com.example.storeswitchervault
-Name: StoreSwitcher Vault
-Version: 0.6.17
-Architecture: iphoneos-arm64e
-Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
-Maintainer: StoreSwitcher Vault contributors
-Author: StoreSwitcher Vault contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.17_iphoneos-arm64e.deb
-Size: 58754
-SHA256: ef61fcbd906b15eb7b3ff73f0e0015e103bf4134f728180a40d1e7fa4e067cdc
-
-Package: com.example.storeswitchervault
-Name: StoreSwitcher Vault
-Version: 0.6.17
-Architecture: iphoneos-arm64
-Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
-Maintainer: StoreSwitcher Vault contributors
-Author: StoreSwitcher Vault contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.17_iphoneos-arm64.deb
-Size: 89880
-SHA256: 0bad30c5d19d03ed9f04708970d963a6572a0a9ee2b907de8c2a5746c91e3414
-
-Package: com.vietai.assistant
-Name: VietAI Assistant
-Version: 0.3.1
-Architecture: iphoneos-arm64
-Description: Vietnamese hands-free assistant with dynamic app launch, location-based current weather, web answers, browser fallback, multi-turn confirmations and allowlisted system actions.
-Maintainer: VietAI
-Author: VietAI
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.3.1_iphoneos-arm64.deb
-Size: 57984
-SHA256: 5d8004a698480b5cc0f005d5d3766004f92de1690ec33b1dfc524957b7709a64
-
-Package: com.vietai.assistant
-Name: VietAI Assistant
-Version: 0.3.1
-Architecture: iphoneos-arm64e
-Description: Vietnamese hands-free assistant with dynamic app launch, location-based current weather, web answers, browser fallback, multi-turn confirmations and allowlisted system actions.
-Maintainer: VietAI
-Author: VietAI
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.3.1_iphoneos-arm64e.deb
-Size: 40292
-SHA256: 76f67be8eb5ce7477770a8d6671e1e41a5ccc7093121cbe937afd09aa7fa5ee3
-
-Package: com.vietai.assistant
-Name: VietAI Assistant
-Version: 0.2.2
-Architecture: iphoneos-arm64
-Description: Vietnamese hands-free assistant with wake phrase, multi-turn confirmations, accent-preserving contact/message/navigation arguments, dynamic app launch, media, flashlight, volume, home and lock actions.
-Maintainer: VietAI
-Author: VietAI
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.2.2_iphoneos-arm64.deb
-Size: 48678
-SHA256: 622d7fce8d2b2785363e11013c8d1e98c296398ffd98a53d0f29a32caab1ad71
-
-Package: com.vietai.assistant
-Name: VietAI Assistant
-Version: 0.2.2
-Architecture: iphoneos-arm64e
-Description: Vietnamese hands-free assistant with wake phrase, multi-turn confirmations, accent-preserving contact/message/navigation arguments, dynamic app launch, media, flashlight, volume, home and lock actions.
-Maintainer: VietAI
-Author: VietAI
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.2.2_iphoneos-arm64e.deb
-Size: 34046
-SHA256: ded4cc435e89930ba4566f2a413fb20ee14dd0b0dfeb955a5c513d3c6d3565a8
-
-Package: com.vietai.assistant
-Name: VietAI Assistant
-Version: 0.2.1
-Architecture: iphoneos-arm64
-Description: Vietnamese hands-free assistant with wake phrase, multi-turn confirmations, accent-preserving contact/message/navigation arguments, dynamic app launch, media, flashlight, volume, home and lock actions.
-Maintainer: VietAI
-Author: VietAI
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.2.1_iphoneos-arm64.deb
-Size: 48530
-SHA256: 1f5b798de88236811631dbafb7e9eaa8d9c9266ec33d7981d80a7e66c77f238d
-
-Package: com.vietai.assistant
-Name: VietAI Assistant
-Version: 0.2.0
-Architecture: iphoneos-arm64
-Description: Vietnamese hands-free assistant with wake phrase, multi-turn confirmations, contact calls/messages, dynamic app launch, media, navigation, flashlight, volume, home and lock actions.
-Maintainer: VietAI
-Author: VietAI
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.2.0_iphoneos-arm64.deb
-Size: 47866
-SHA256: 7ab4208893253a7f7689eb2ec391e4d4d845ac0c1c61c7558ca7ae2e59df0d9e
-
-Package: com.example.aicarbridge
-Name: AI Voice Assistant
-Version: 0.4.3
-Architecture: iphoneos-arm64
-Description: Vietnamese-first hands-free assistant with settings only in the iPhone CarPlay vehicle pane, no car-display settings UI, CarPlay auto-start, local voice commands, confirmations, TTS, and Maps/media handoff.
-Maintainer: AI Voice Assistant Contributors
-Author: AI Voice Assistant Contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Conflicts: com.cortex.carplayenable
-Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.3_iphoneos-arm64.deb
-Size: 45852
-SHA256: 12a510a2f51dc47a831a0be2a30733456d8f37136c933e84bee32fe148f5a3f2
-
-Package: com.example.aicarbridge
-Name: AI Voice Assistant
-Version: 0.4.2
-Architecture: iphoneos-arm64
-Description: Vietnamese-first hands-free assistant with CarPlay Settings integration, shared Vietnamese/English locale selection, auto-start, local voice commands, confirmations, TTS, and Maps/media handoff.
-Maintainer: AI Voice Assistant Contributors
-Author: AI Voice Assistant Contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
-Conflicts: com.cortex.carplayenable
-Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.2_iphoneos-arm64.deb
-Size: 59492
-SHA256: 66545dff88cfb73ce2fb08dd710e9c51257c2a4225478e15e60883af13f5455a
-
-Package: com.example.aicarbridge
-Name: AI Voice Assistant
-Version: 0.4.1
-Architecture: iphoneos-arm64
-Description: Vietnamese-first hands-free assistant with opt-in passenger display mode, CarPlay auto-start, local voice commands, confirmations, TTS, and Maps/media handoff.
-Maintainer: AI Voice Assistant Contributors
-Author: AI Voice Assistant Contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
-Conflicts: com.cortex.carplayenable
-Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.1_iphoneos-arm64.deb
-Size: 46350
-SHA256: 3564a9551daf40fe00edb0a4e73937eaeaab012451f4879679590eb0d2ed25b7
-
-Package: com.example.aicarbridge
-Name: AI Voice Assistant
-Version: 0.4.0
-Architecture: iphoneos-arm64
-Description: Vietnamese-first hands-free assistant that starts on CarPlay connection, parses local voice commands, confirms calls/messages, provides TTS, and hands off Maps/media.
-Maintainer: AI Voice Assistant Contributors
-Author: AI Voice Assistant Contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
-Conflicts: com.cortex.carplayenable
-Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.0_iphoneos-arm64.deb
-Size: 45720
-SHA256: 6d40ffd0570dff9ab648aad449bd0c4f2ef5356cd57ed2632fbe622b5ca5697a
-
-Package: com.example.aicarbridge
-Name: AI Voice Assistant
-Version: 0.3.0
-Architecture: iphoneos-arm64
-Description: Vietnamese-first wake-word voice assistant with local command parsing, Google Maps/YouTube handoff, TTS, and optional VTV1 URL.
-Maintainer: AI Voice Assistant Contributors
-Author: AI Voice Assistant Contributors
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
-Conflicts: com.cortex.carplayenable
-Filename: AI-Voice-Assistant/com.example.aicarbridge_0.3.0_iphoneos-arm64.deb
-Size: 39114
-SHA256: 8ad5fc8e46fe56ab7f0a2de4abb9ec22d6bd22ad71c7b15dce5435754f83cea0
-
-Package: com.example.aicarbridge
-Name: AI CarBridge
-Version: 0.2.5
-Architecture: iphoneos-arm64
-Description: Experimental rootless CarPlay bridge with configurable 3x5 home grid, runtime diagnostics, Vietnamese/English interface and push-to-talk controls; video playback is disabled.
 Maintainer: AI CarBridge Contributors
-Author: AI CarBridge Contributors
+Installed-Size: 348
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.1.0_iphoneos-arm64.deb
+Size: 17176
+MD5sum: a2d69a5fa74017f47ab6af1d1223a975
+SHA1: 7c83099045ae8bb11ab3e8ce58fc133fcb6536bf
+SHA256: a87865ae90ad430d036cbc53202853d22ec477c1da855650e58850aacc00cb5e
 Section: Tweaks
-Priority: optional
+Description: Experimental rootless CarPlay app bridge foundation for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
+
+Package: com.example.aicarbridge
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: AI CarBridge Contributors
+Installed-Size: 388
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.2.0_iphoneos-arm64.deb
+Size: 32834
+MD5sum: eb1955f538d59787d7f2a3512126e598
+SHA1: f2a5acb2ba86abffa0e500b34e1b87210666cee7
+SHA256: 8e8d82997d3559f4576331b99b46e4e0b2f8b089cd6ac444d915ca973a736752
+Section: Tweaks
+Description: Experimental rootless CarPlay app bridge foundation for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
+
+Package: com.example.aicarbridge
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: AI CarBridge Contributors
+Installed-Size: 420
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.2.1_iphoneos-arm64.deb
+Size: 36670
+MD5sum: d47fc6fca015cc28a770a306204bcb1c
+SHA1: c4afeb76b2423b065aaafc76d2bf3350adbb92d6
+SHA256: 86ca5539b3ebd44cff633b22c059cf140bbe1b67450eee63bda75d116f060208
+Section: Tweaks
+Description: Experimental rootless CarPlay app bridge foundation for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
+
+Package: com.example.aicarbridge
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: AI CarBridge Contributors
+Installed-Size: 420
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.2.2_iphoneos-arm64.deb
+Size: 42284
+MD5sum: dae0b7e98523dfa6265c372299c4c216
+SHA1: f40982624b423d7f4fc6dad17d244b22bfdc79eb
+SHA256: 8986304f6b788f34ab3a49a55957d32bd15227e18121eed19468097f7f6d80f9
+Section: Tweaks
+Description: Experimental rootless CarPlay bridge with an external-display test launcher for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
+
+Package: com.example.aicarbridge
+Version: 0.2.3
+Architecture: iphoneos-arm64
+Maintainer: AI CarBridge Contributors
+Installed-Size: 456
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.2.3_iphoneos-arm64.deb
+Size: 46168
+MD5sum: edd125290543c7d68ee3443bd9204583
+SHA1: 291b1f2e5af3eea76b7e8d4c58aaa337b2132ad7
+SHA256: 092a9660ab7ee846f30fbd1c4413300bc08da8bd42763304d625af0b48eb9874
+Section: Tweaks
+Description: Experimental rootless CarPlay bridge with an external-display test launcher for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
+
+Package: com.example.aicarbridge
+Version: 0.2.4
+Architecture: iphoneos-arm64
+Maintainer: AI CarBridge Contributors
+Installed-Size: 492
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.2.4_iphoneos-arm64.deb
+Size: 52694
+MD5sum: 480ec2f8516223119c9ba19465cf39df
+SHA1: 2a77adb5ad5755c6d551e1a33814cc38a7d35df4
+SHA256: ba2bd6f217844b2611be6ab04b485b2383c6ff6ec14945e682bd8fc319ffcd02
+Section: Tweaks
+Description: Experimental rootless CarPlay bridge with an external-display test launcher for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
+
+Package: com.example.aicarbridge
+Version: 0.2.5
+Architecture: iphoneos-arm64
+Maintainer: AI CarBridge Contributors
+Installed-Size: 492
 Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
 Conflicts: com.cortex.carplayenable
 Filename: AI-Voice-Assistant/com.example.aicarbridge_0.2.5_iphoneos-arm64.deb
 Size: 58064
+MD5sum: 7dfb6fc4a270ba01298d6d68b31ce70f
+SHA1: 325bada44d3fd045eb2c79893152f57f354169a9
 SHA256: d4c02bcf9e40f2edc6ef25cb26e842c03051469331c384e96b0f37d98ee8939d
+Section: Tweaks
+Description: Experimental rootless CarPlay bridge with an external-display test launcher for iOS 15 and later.
+Author: AI CarBridge Contributors
+Name: AI CarBridge
 
-Package: com.example.storeswitchervault
-Name: StoreSwitcher Vault
-Version: 0.6.16
+Package: com.example.aicarbridge
+Version: 0.3.0
 Architecture: iphoneos-arm64
-Description: Manage and switch App Store accounts on rootless iOS 15-16.
-Maintainer: StoreSwitcher Vault contributors
-Author: StoreSwitcher Vault contributors
+Maintainer: AI Voice Assistant Contributors
+Installed-Size: 452
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.3.0_iphoneos-arm64.deb
+Size: 39114
+MD5sum: 1caaa65592c0ecb07bc0fdb9ee579e4a
+SHA1: d7f3f829439af81460ba379e9eb69a794dd1e5a6
+SHA256: 8ad5fc8e46fe56ab7f0a2de4abb9ec22d6bd22ad71c7b15dce5435754f83cea0
+Section: Tweaks
+Description: Experimental rootless Vietnamese voice assistant for iOS 15 and later. Executes local voice commands and hands off navigation/media to installed apps.
+Author: AI Voice Assistant Contributors
+Name: AI Voice Assistant
+
+Package: com.example.aicarbridge
+Version: 0.4.0
+Architecture: iphoneos-arm64
+Maintainer: AI Voice Assistant Contributors
+Installed-Size: 456
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.0_iphoneos-arm64.deb
+Size: 45720
+MD5sum: 433e6119828346207f6ab34b7bdc74f4
+SHA1: 979f51baf109f62da2b97db7d12c28f245b91a07
+SHA256: 6d40ffd0570dff9ab648aad449bd0c4f2ef5356cd57ed2632fbe622b5ca5697a
+Section: Tweaks
+Description: Experimental rootless Vietnamese-first hands-free voice assistant for iOS 15 and later. Starts on CarPlay connection, parses local commands, and hands off navigation/media to installed apps.
+Author: AI Voice Assistant Contributors
+Name: AI Voice Assistant
+
+Package: com.example.aicarbridge
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Maintainer: AI Voice Assistant Contributors
+Installed-Size: 456
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.1_iphoneos-arm64.deb
+Size: 46350
+MD5sum: 49b42a9c69436a00b230c377cbbc3818
+SHA1: 45614f16860ffb78e8cce3014ec359d54fdb609b
+SHA256: 3564a9551daf40fe00edb0a4e73937eaeaab012451f4879679590eb0d2ed25b7
+Section: Tweaks
+Description: Experimental rootless Vietnamese-first hands-free voice assistant for iOS 15 and later. Starts on CarPlay connection, offers an opt-in passenger display mode, parses local commands, and hands off navigation/media to installed apps.
+Author: AI Voice Assistant Contributors
+Name: AI Voice Assistant
+
+Package: com.example.aicarbridge
+Version: 0.4.2
+Architecture: iphoneos-arm64
+Maintainer: AI Voice Assistant Contributors
+Installed-Size: 504
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.2_iphoneos-arm64.deb
+Size: 59492
+MD5sum: 0fa01808cfadf34457e62b2536bd294c
+SHA1: 628230c2fb6ea3dd1946b5a50f14cac3a7baccdd
+SHA256: 66545dff88cfb73ce2fb08dd710e9c51257c2a4225478e15e60883af13f5455a
+Section: Tweaks
+Description: Experimental rootless Vietnamese-first hands-free voice assistant for iOS 15 and later. Starts on CarPlay connection, exposes settings from iPhone Settings and the CarPlay vehicle pane, supports Vietnamese/English locale selection, and hands off navigation/media to installed apps.
+Author: AI Voice Assistant Contributors
+Name: AI Voice Assistant
+
+Package: com.example.aicarbridge
+Version: 0.4.3
+Architecture: iphoneos-arm64
+Maintainer: AI Voice Assistant Contributors
+Installed-Size: 288
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.3_iphoneos-arm64.deb
+Size: 45852
+MD5sum: e05f3acf7f8cebd483049ad1b43081fa
+SHA1: 3d29ddbff651d43246dad8f7b083c57b518e8327
+SHA256: 12a510a2f51dc47a831a0be2a30733456d8f37136c933e84bee32fe148f5a3f2
+Section: Tweaks
+Description: Experimental rootless Vietnamese-first hands-free voice assistant for iOS 15 and later. Starts on CarPlay connection, exposes settings only in the iPhone CarPlay vehicle pane, keeps the car display free of settings UI, supports Vietnamese/English locale selection, and hands off navigation/media to installed apps.
+Author: AI Voice Assistant Contributors
+Name: AI Voice Assistant
+
+Package: com.example.aicarbridge
+Version: 0.4.4
+Architecture: iphoneos-arm64
+Maintainer: AI Voice Assistant Contributors
+Installed-Size: 304
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Conflicts: com.cortex.carplayenable
+Filename: AI-Voice-Assistant/com.example.aicarbridge_0.4.4_iphoneos-arm64.deb
+Size: 47668
+MD5sum: bbafbf0ae9377179dcf2909f7edc9746
+SHA1: 008286a644ad11d496584ac1855f1e2b7f6fc3f8
+SHA256: 0dd177d4fb25b14538fb97919282b241f9d111ad0af048d78b17ea274d5b3e70
+Section: Tweaks
+Description: Experimental rootless Vietnamese-first hands-free voice assistant for iOS 15 and later. Starts on CarPlay connection, injects its settings into the iPhone CarPlay vehicle pane across iOS versions, keeps the car display free of settings UI, supports Vietnamese/English locale selection, and hands off navigation/media to installed apps.
+Author: AI Voice Assistant Contributors
+Name: AI Voice Assistant
+
+Package: com.example.carplaysplit
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: CarPlay Split contributors
+Installed-Size: 164
+Depends: firmware (>= 15.0)
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.0_iphoneos-arm64.deb
+Size: 35190
+MD5sum: 2e42c24bb51f1cf888d345d5a62f8b48
+SHA1: 9a43bbb9800d9767ae0b6a05a4d4c56183d93e97
+SHA256: 3adf5e8dc79b5ad7bfe05bc8e16515324d264068a8296ebb5681b15fd0eb0092
 Section: Tweaks
 Priority: optional
+Description: Experimental rootless CarPlay split host for Google Maps and YouTube with Vietnamese assistant.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: CarPlay Split contributors
+Installed-Size: 164
+Depends: firmware (>= 15.0)
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.1_iphoneos-arm64.deb
+Size: 35152
+MD5sum: 94900c46bf468f9cd57e55070123e746
+SHA1: e65b9edf221dab66f89a112b0ed931a44dd6c179
+SHA256: f1b97b07b7c3af0b3a4d6a7a03e6c72370313dc4c150eb79a3c49e5ba3843acc
+Section: Tweaks
+Priority: optional
+Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; native rootless and RootHide builds.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.1+roothide
+Architecture: iphoneos-arm64e
+Maintainer: CarPlay Split contributors
+Installed-Size: 164
+Depends: firmware (>= 15.0)
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.1+roothide_iphoneos-arm64e.deb
+Size: 35096
+MD5sum: a9f5384c475ba7ea8aaf7d3aa2552390
+SHA1: f59b022df8166d2e5e16faecfe2e6d31a7f2ed62
+SHA256: 77ec48d23e1f6356351d1b12d6e58054524918d8086c03b9f1aba85194a0c020
+Section: Tweaks
+Priority: optional
+Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; native rootless and RootHide builds.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: CarPlay Split contributors
+Installed-Size: 164
+Depends: firmware (>= 15.0)
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.2_iphoneos-arm64.deb
+Size: 35546
+MD5sum: 634287aa0bfe5fce2707681de3bd642d
+SHA1: 36f7b5786d3ae7f64e5da6e192647e3b84fe18ae
+SHA256: 08dcda772ec656f3004a48ab733d4c2d385d8f63334866a23c31cdbc5a8e6679
+Section: Tweaks
+Priority: optional
+Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; targets the iOS 16 CarPlay host and native RootHide system injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.2+roothide
+Architecture: iphoneos-arm64e
+Maintainer: CarPlay Split contributors
+Installed-Size: 164
+Depends: firmware (>= 15.0)
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.2+roothide_iphoneos-arm64e.deb
+Size: 35576
+MD5sum: 81bdaaf0a46819fbda2dc70b1f37b407
+SHA1: 6e64eb5db3e374e6830ba4f72575b554e24cc596
+SHA256: a6e465d4041c01b8f2adf37f563034c1a752f0826827b69072a70ecd7d38c191
+Section: Tweaks
+Priority: optional
+Description: Experimental CarPlay split host for Google Maps and YouTube with Vietnamese assistant; targets the iOS 16 CarPlay host and native RootHide system injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.3
+Architecture: iphoneos-arm64
+Maintainer: CarPlay Split contributors
+Installed-Size: 344
+Depends: firmware (>= 15.0), preferenceloader
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.3_iphoneos-arm64.deb
+Size: 40086
+MD5sum: 1788c16c9522ca44d85ea41189e1d72e
+SHA1: 4299bad61a707f639d5ede7d328c0a4b08d4d969
+SHA256: c03d051400fd6a2ec1430157426538290d88e7f47b890d3668b9d900e7afdcd7
+Section: Tweaks
+Priority: optional
+Description: CarPlay split for Google Maps and YouTube with iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.3+roothide
+Architecture: iphoneos-arm64e
+Maintainer: CarPlay Split contributors
+Installed-Size: 344
+Depends: firmware (>= 15.0), preferenceloader
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.3+roothide_iphoneos-arm64e.deb
+Size: 39980
+MD5sum: dfbedbcdb51b038e7c3dda0524e33476
+SHA1: c6ad9ebb28343af2776983b99cffea6ab3891719
+SHA256: b1c91652d04c806ffa525a437bf509c76d5eeeb3f3151260706e8457e4581694
+Section: Tweaks
+Priority: optional
+Description: CarPlay split for Google Maps and YouTube with iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.4
+Architecture: iphoneos-arm64
+Maintainer: CarPlay Split contributors
+Installed-Size: 360
+Depends: firmware (>= 15.0), preferenceloader
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.4_iphoneos-arm64.deb
+Size: 46260
+MD5sum: 633130f60d11362c4f61045f34edd868
+SHA1: 975fddc220c063e807eca5174c1052ce7e22eb04
+SHA256: 28581c9dc0619b5f0a8e5d884f97b244e8d57798f3cdbe6cb876861160d62bd5
+Section: Tweaks
+Priority: optional
+Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.4+roothide
+Architecture: iphoneos-arm64e
+Maintainer: CarPlay Split contributors
+Installed-Size: 360
+Depends: firmware (>= 15.0), preferenceloader
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.4+roothide_iphoneos-arm64e.deb
+Size: 46562
+MD5sum: 2a771ae32a9c384d7ce4e0a8b765c002
+SHA1: 4d16edf7cf24a4f3cb2eaed79154306b597ca097
+SHA256: ceb4acefc23f8cae85bca8c03038c660f4ee0dd5defb8e6f7da3498be07974e1
+Section: Tweaks
+Priority: optional
+Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.5
+Architecture: iphoneos-arm64
+Maintainer: CarPlay Split contributors
+Installed-Size: 360
+Depends: firmware (>= 15.0), preferenceloader
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.5_iphoneos-arm64.deb
+Size: 47714
+MD5sum: 0f9dbb0e5e039ff4e323e1af15bbf76c
+SHA1: 2c4a3c518df62fe5af42ab14b11272350c887272
+SHA256: c4598695afbc375c6d45b7c105fe824c959eb8f574ec959fca2fe7e2d19eea77
+Section: Tweaks
+Priority: optional
+Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.carplaysplit
+Version: 0.2.5+roothide
+Architecture: iphoneos-arm64e
+Maintainer: CarPlay Split contributors
+Installed-Size: 360
+Depends: firmware (>= 15.0), preferenceloader
+Filename: CarPlay-Split/com.example.carplaysplit_0.2.5+roothide_iphoneos-arm64e.deb
+Size: 47608
+MD5sum: bbdec2aea202a52b1a1ec9d0f3383b33
+SHA1: c7aeaa769f076ed51bc7ccc782a0208f53bf21b3
+SHA256: 6fb3298674bd56d59412af9aa4aeaa4a45374264743345eb4bd4b1c640d60b6c
+Section: Tweaks
+Priority: optional
+Description: CarPlay split with draggable panes, live clock/date rail and iPhone-only settings; keeps the vehicle display touchable and supports native RootHide injection.
+Author: CarPlay Split contributors
+Name: CarPlay Split
+
+Package: com.example.storeswitchervault
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 272
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.2.0_iphoneos-arm64.deb
+Size: 39848
+MD5sum: 19d45c6f2a1658c22e7c54ec6a3759d8
+SHA1: 4deaebbadc364c20b930d3fef54fb61fa21293dc
+SHA256: ccde7b6ec96e97816aed974a0c27d3e263a83487a9536aad7ebe9fe69d90aac5
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.3.0
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 304
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.3.0_iphoneos-arm64.deb
+Size: 45064
+MD5sum: b5df6dca249f87c2a590f8524935adf0
+SHA1: 5d50bdc736d0f62c45f545772c854943d3ca529a
+SHA256: 4e7d1f6897ecf376f3a732db3db289ae03e2644d5d3b4036612645eef5f65f1f
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.4.0
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 308
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.4.0_iphoneos-arm64.deb
+Size: 48388
+MD5sum: 9e9cbe561484d030b8e3d37131bd0ccf
+SHA1: b75402ac19a0f2fcac2fc3bb2464d325b7bc6164
+SHA256: 0185a3db559fc24ef97b9f0cfd240259822f7d8e38c8028d058ec9b2711ff543
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 308
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.4.1_iphoneos-arm64.deb
+Size: 48228
+MD5sum: 4167be64bb78b46ca9356782e1e58ec5
+SHA1: 36952de5687b86258dcaaeef7416786d04470e81
+SHA256: f5714a45087a0c340ef30acf7f2c8ce8898cb0204005bdbdac2f6d3245ce4ad9
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.4.2
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 324
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.4.2_iphoneos-arm64.deb
+Size: 50348
+MD5sum: 4ea22c340c20b08c990c13b5bcbc85f3
+SHA1: fcb2c9840cf004f5e8012dc7071e943c2b836848
+SHA256: e0a2b30d75749feaee7ae7a0dbda66d4ab12cb4ede5d5eed9175e5c108d3e6d9
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.5.0
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 340
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.5.0_iphoneos-arm64.deb
+Size: 53016
+MD5sum: 6b02861283240ebc5baf35ecdd1ca33d
+SHA1: 51c285e0a22e223b3fa1fc91116eea46de62a181
+SHA256: 1ce0370542495d368d51805c925f35dd7a955102f5861caec44ca2b56cf2127c
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.5.1
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 340
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.5.1_iphoneos-arm64.deb
+Size: 52908
+MD5sum: dc9bb45eb60d0221cee1078b0c6b70de
+SHA1: 99d7e7274ef3a2a28055a837329a717b77620ded
+SHA256: b6f8982cdb906c5659aac6eb7b8dcb33f421035b201120b40e8b3f12e7d1def0
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.0
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 340
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.0_iphoneos-arm64.deb
+Size: 56148
+MD5sum: c1864161c1cf31333b2d5f1f425ec4e3
+SHA1: f6a38169a2b5e2cf34d9d75a97d318a6c9369e0b
+SHA256: 6959a7a3ce1f79d24cfc9cb34a229c7b7610205e716dafbaedcca2d734cca7aa
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.10
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 404
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.10_iphoneos-arm64.deb
+Size: 71548
+MD5sum: 5f62ce1e7fbeb2399b83078edcc59ba7
+SHA1: 8b4499d5f46ce374ec7f0de05ce311df1fe19f4e
+SHA256: 119c5b5d2ea74513734f7e9e468c1adb31b9957c54b0fc73b2eea56ccafe6fd2
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.11
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 420
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.11_iphoneos-arm64.deb
+Size: 77286
+MD5sum: edbe92aece01d9b3e70ba4f3dd2bb04c
+SHA1: 67751c7b8fe336590f15b41f910ad06d2ff48f03
+SHA256: 95410494f5dadec1efe9cf4888f5846f77db0eb7a183591973832bfe6742a49f
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.12
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 420
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.12_iphoneos-arm64.deb
+Size: 77172
+MD5sum: c569958f901475016d10a268bd1a08a9
+SHA1: bba22f2446f74554ce10e65a2f6fb8e3b0367745
+SHA256: 2cc1c6704c0ee646b1f42f50d97e0f6fe8a236916519bf585bc23fa8f26eac62
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.13
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 436
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.13_iphoneos-arm64.deb
+Size: 78286
+MD5sum: 27d2ab55fb9fd796dbd5e382104ad3de
+SHA1: 96a6676baad80bad03050cbbae26ff13cc8eab49
+SHA256: 21db0fbdc825c4863eacb8653a3bd2125156fdfacb9aaacdc45c4678450bedae
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.14
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 452
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.14_iphoneos-arm64.deb
+Size: 88154
+MD5sum: 24bc2b0f14da4674b4677d74856e6e72
+SHA1: f27e30820bd7665d7967d7b0137baf08ff08e208
+SHA256: 487ea38376a8f368f561ae22c385f1da6535a9d527817fdc6b8db6009f4b3036
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.15
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 452
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.15_iphoneos-arm64.deb
+Size: 88320
+MD5sum: 3ea09ea87f7050092a2e10340e5df8f8
+SHA1: 71064d5ce9805084623f2adf2654294159989f12
+SHA256: 7838ccdaf4e5d29a18e04e44c27a6d084f4650641c140b7bd7decece6dc83a94
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.16
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 468
 Depends: firmware (>= 15.0), ellekit | mobilesubstrate
 Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.16_iphoneos-arm64.deb
 Size: 88552
+MD5sum: 3b72213b9f382de711e88e9a05e2e9b2
+SHA1: 5433a1e2f0c3bff6de9cabd433c02e61171ad2f4
 SHA256: 0444594e925847e690ebb3a386488c5d49a4a109722f1e1ff135060bb1caa902
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.17
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 488
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.17_iphoneos-arm64.deb
+Size: 89880
+MD5sum: d7e85a22901e07e2ac94c83287d7aa03
+SHA1: d41d71fcdd49c35d6658f9ca3d2b077b2934c9fe
+SHA256: 0bad30c5d19d03ed9f04708970d963a6572a0a9ee2b907de8c2a5746c91e3414
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.17
+Architecture: iphoneos-arm64e
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 232
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.17_iphoneos-arm64e.deb
+Size: 58754
+MD5sum: 58f299a9f531dfd07c49fd2efab3aeed
+SHA1: 99e56ae3dc45b7419e984f3f882de0378ec29f36
+SHA256: ef61fcbd906b15eb7b3ff73f0e0015e103bf4134f728180a40d1e7fa4e067cdc
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.2
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 372
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.2_iphoneos-arm64.deb
+Size: 61092
+MD5sum: eb31af8f6671cd5d606739db172568fd
+SHA1: add491bedbca5f165c3c35bf1438bd3d04b3a933
+SHA256: addc632422ad6a44a48a3f4f072b9aef388c94d4e7092d465f812d0e19024a72
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.3
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 388
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.3_iphoneos-arm64.deb
+Size: 67756
+MD5sum: d6381784c996626e2dc26f869e3c17e8
+SHA1: 4fd1150d21f94dfd637480507c58a15923fb6f1d
+SHA256: 1f2173d78fca9b34eaf4f7ed37670caed335e181c19cd669634a5eab7f37c284
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.4
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 388
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.4_iphoneos-arm64.deb
+Size: 67768
+MD5sum: acb3c58296626730c674e002ef9c2c9d
+SHA1: a33651fe741f02a5542df1107664647d829ac8a2
+SHA256: 3d7372c18febe042bb1251c5e75ab7a5d89738080b7e0bd3bff583e5744fe0c4
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.5
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 404
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.5_iphoneos-arm64.deb
+Size: 68652
+MD5sum: be8975b135de5ef91a2d403a499d4d75
+SHA1: d14d526c321f1c7862a4bc803d238fbee9a8aef6
+SHA256: 2b8b3c502f6ab53d7fb590e88926032c65b5b8bc24361eb489a51ca9be53ef89
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.7
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 404
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.7_iphoneos-arm64.deb
+Size: 69794
+MD5sum: 713bc804d217dfc3ab3910ed1a9a94d0
+SHA1: 1acbbfeae4c35bae2923a3d0575a914613187846
+SHA256: 637f1ce5e761823bf097f00fbc318460f91066ec7daad6506f76d06b936cce8a
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.8
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 404
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.8_iphoneos-arm64.deb
+Size: 70618
+MD5sum: 9bc2c8f535f094f1e7b802cce10429fb
+SHA1: b8517fa06db4aefa14337664790d54b8173df6d1
+SHA256: e5f009d1f36d90b52364443d95a532eede4ae11851c9ed4cdab91e1e1e132105
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.9
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 404
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.9_iphoneos-arm64.deb
+Size: 70918
+MD5sum: f9c2b33c38427e88679e5bb0bb964b6c
+SHA1: 3f0070fa4338aec15f02edb544df943b61fbb923
+SHA256: 33cd66f770ac9e403f26f64de78da6220658f0082794b20ae4fd1ae314c580c0
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.hnduy.homegesthnd
+Version: 0.1.6
+Architecture: iphoneos-arm64e
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.6_iphoneos-arm64e.deb
+Size: 3710
+MD5sum: 41a99404b8c8026c8d0fc86789f99a05
+SHA1: 45754a0b5e3e48d17e095de615ea239e5a58f77e
+SHA256: 4055178cacaadc004e125e9bf516502e7fca0f131cba67fdb577146f0adcd96d
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture for legacy Home-button iPhones.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
+Package: com.hnduy.homegesthnd
+Version: 0.1.6
+Architecture: iphoneos-arm64
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.6_iphoneos-arm64.deb
+Size: 3770
+MD5sum: cad0aa4f31394c78e40cd2995747e95e
+SHA1: 16339170dd82e1a2decdabf65a5358cc6cb65bcf
+SHA256: 138fd43a2de618e5538d30b901396f4012c2b52477b26683e41e6dea7e68952d
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture for legacy Home-button iPhones.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
+Package: com.vietai.assistant
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: VietAI
+Installed-Size: 612
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.2.0_iphoneos-arm64.deb
+Size: 47866
+MD5sum: 09b722f700e87d9b7bf19464adbd85b1
+SHA1: 422e5f5cd2c3ebd89fdd5f2cec7f7eee11418a46
+SHA256: 7ab4208893253a7f7689eb2ec391e4d4d845ac0c1c61c7558ca7ae2e59df0d9e
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
+
+Package: com.vietai.assistant
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: VietAI
+Installed-Size: 612
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.2.1_iphoneos-arm64.deb
+Size: 48530
+MD5sum: 99bb83d4c81dc6e1572ddb9dbad31dda
+SHA1: d11de99f8ccadcf63a8f4e8300919a7b14c21fad
+SHA256: 1f5b798de88236811631dbafb7e9eaa8d9c9266ec33d7981d80a7e66c77f238d
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
+
+Package: com.vietai.assistant
+Version: 0.2.2
+Architecture: iphoneos-arm64e
+Maintainer: VietAI
+Installed-Size: 276
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.2.2_iphoneos-arm64e.deb
+Size: 34046
+MD5sum: 251291d82f4996ec1289a1b58d76a4ac
+SHA1: e67e4c3028c515c93284f622dfc82980363797e3
+SHA256: ded4cc435e89930ba4566f2a413fb20ee14dd0b0dfeb955a5c513d3c6d3565a8
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
+
+Package: com.vietai.assistant
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: VietAI
+Installed-Size: 612
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.2.2_iphoneos-arm64.deb
+Size: 48678
+MD5sum: f37f1409ee496f3ee39e716e8f006bca
+SHA1: e006084e925025c415e00cfc74b3b6697721a0af
+SHA256: 622d7fce8d2b2785363e11013c8d1e98c296398ffd98a53d0f29a32caab1ad71
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
+
+Package: com.vietai.assistant
+Version: 0.3.1
+Architecture: iphoneos-arm64e
+Maintainer: VietAI
+Installed-Size: 296
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.3.1_iphoneos-arm64e.deb
+Size: 40292
+MD5sum: 941c8e1b1b8e5dd2b3767ad96ed3dad3
+SHA1: 87096d7b9ea0c66516eb158f6ebcd6c4930dc7b9
+SHA256: 76f67be8eb5ce7477770a8d6671e1e41a5ccc7093121cbe937afd09aa7fa5ee3
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
+
+Package: com.vietai.assistant
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: VietAI
+Installed-Size: 648
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.3.1_iphoneos-arm64.deb
+Size: 57984
+MD5sum: e7013b85efdd2f3e413de7f0499539f3
+SHA1: ed760565d53c373669a67a1f69d1ba00c1a1086d
+SHA256: 5d8004a698480b5cc0f005d5d3766004f92de1690ec33b1dfc524957b7709a64
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
 
