@@ -854,6 +854,38 @@ Description: iPhone X-style bottom Home gesture plus App Switcher close-all gest
 Author: Hoang Ngoc Duy
 Name: HomeGestHND
 
+Package: com.hnduy.homegesthnd
+Version: 0.1.8
+Architecture: iphoneos-arm64
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.8_iphoneos-arm64.deb
+Size: 8154
+MD5sum: d3f50da5e1f58c53ad27a31ec7f66857
+SHA1: ba9bb93e2d857960bba93b7fb21840d09be15d67
+SHA256: f2ae8bf31ad61d8aedf2fab804b4e881c3191a4faa3cb12d2621f5d7b6b4e8f6
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for supported physical Home-button iPhones.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
+Package: com.hnduy.homegesthnd
+Version: 0.1.8
+Architecture: iphoneos-arm64e
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.8_iphoneos-arm64e.deb
+Size: 8074
+MD5sum: 2bfd30313a2f979cae7d143b869ddb57
+SHA1: 625b39dce327c6df3d63f61e964f2c4f6c4ddfd1
+SHA256: 7b8fabf326eed2f6e09e1a5b56939677e21e24661b43b270b8c8aced62f9f22c
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for supported physical Home-button iPhones.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
 Package: com.vietai.assistant
 Version: 0.2.0
 Architecture: iphoneos-arm64
