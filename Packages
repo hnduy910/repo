@@ -648,22 +648,6 @@ Name: StoreSwitcher Vault
 
 Package: com.example.storeswitchervault
 Version: 0.6.17
-Architecture: iphoneos-arm64
-Maintainer: StoreSwitcher Vault contributors
-Installed-Size: 488
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.17_iphoneos-arm64.deb
-Size: 89880
-MD5sum: d7e85a22901e07e2ac94c83287d7aa03
-SHA1: d41d71fcdd49c35d6658f9ca3d2b077b2934c9fe
-SHA256: 0bad30c5d19d03ed9f04708970d963a6572a0a9ee2b907de8c2a5746c91e3414
-Section: Tweaks
-Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
-Author: StoreSwitcher Vault contributors
-Name: StoreSwitcher Vault
-
-Package: com.example.storeswitchervault
-Version: 0.6.17
 Architecture: iphoneos-arm64e
 Maintainer: StoreSwitcher Vault contributors
 Installed-Size: 232
@@ -673,6 +657,22 @@ Size: 58754
 MD5sum: 58f299a9f531dfd07c49fd2efab3aeed
 SHA1: 99e56ae3dc45b7419e984f3f882de0378ec29f36
 SHA256: ef61fcbd906b15eb7b3ff73f0e0015e103bf4134f728180a40d1e7fa4e067cdc
+Section: Tweaks
+Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
+Author: StoreSwitcher Vault contributors
+Name: StoreSwitcher Vault
+
+Package: com.example.storeswitchervault
+Version: 0.6.17
+Architecture: iphoneos-arm64
+Maintainer: StoreSwitcher Vault contributors
+Installed-Size: 488
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: StoreSwitcherVault/com.example.storeswitchervault_0.6.17_iphoneos-arm64.deb
+Size: 89880
+MD5sum: d7e85a22901e07e2ac94c83287d7aa03
+SHA1: d41d71fcdd49c35d6658f9ca3d2b077b2934c9fe
+SHA256: 0bad30c5d19d03ed9f04708970d963a6572a0a9ee2b907de8c2a5746c91e3414
 Section: Tweaks
 Description: Manage and switch App Store accounts on rootless or roothide iOS 15-16.
 Author: StoreSwitcher Vault contributors
@@ -791,6 +791,38 @@ Author: StoreSwitcher Vault contributors
 Name: StoreSwitcher Vault
 
 Package: com.hnduy.homegesthnd
+Version: 0.1.14
+Architecture: iphoneos-arm64
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 172
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.14_iphoneos-arm64.deb
+Size: 10922
+MD5sum: 7fc9dc16d83c007a059655790a587077
+SHA1: cb779a070939a2ef3f7cbc94f340420ea8b09b0c
+SHA256: f2a41ee72f83e0ad470c8f70cd0d68830ea856c20dc9d68c1c11d0ac298aae68
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture for supported physical Home-button iPhones; guarded App Switcher close-all is available only on iPhone SE (2nd generation) with iOS 26.0.1.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
+Package: com.hnduy.homegesthnd
+Version: 0.1.14
+Architecture: iphoneos-arm64e
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 172
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.14_iphoneos-arm64e.deb
+Size: 10870
+MD5sum: 205971e9136cf1294c39745bc1c3c00d
+SHA1: c61bd4d4debf830bba41246506808a6e11d51753
+SHA256: 770121c6179e261d03271e00f5aa2ec8f3a00178ddaebe34fabe95b61f523210
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture for supported physical Home-button iPhones; guarded App Switcher close-all is available only on iPhone SE (2nd generation) with iOS 26.0.1.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
+Package: com.hnduy.homegesthnd
 Version: 0.1.6
 Architecture: iphoneos-arm64e
 Maintainer: Hoang Ngoc Duy
@@ -824,22 +856,6 @@ Name: HomeGestHND
 
 Package: com.hnduy.homegesthnd
 Version: 0.1.7
-Architecture: iphoneos-arm64e
-Maintainer: Hoang Ngoc Duy
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.7_iphoneos-arm64e.deb
-Size: 7430
-MD5sum: 0d4ab1f6903f2f7c01a1266831dc7660
-SHA1: cd4ab20761e91448d9d6fdb2f0071dee2ba07bd5
-SHA256: feab5cd19241fd5a3b0da61124d0707ebca068d05452753cdc04da005b1c1141
-Section: Tweaks
-Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for legacy Home-button iPhones.
-Author: Hoang Ngoc Duy
-Name: HomeGestHND
-
-Package: com.hnduy.homegesthnd
-Version: 0.1.7
 Architecture: iphoneos-arm64
 Maintainer: Hoang Ngoc Duy
 Installed-Size: 172
@@ -855,18 +871,18 @@ Author: Hoang Ngoc Duy
 Name: HomeGestHND
 
 Package: com.hnduy.homegesthnd
-Version: 0.1.8
-Architecture: iphoneos-arm64
+Version: 0.1.7
+Architecture: iphoneos-arm64e
 Maintainer: Hoang Ngoc Duy
 Installed-Size: 172
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.8_iphoneos-arm64.deb
-Size: 8154
-MD5sum: d3f50da5e1f58c53ad27a31ec7f66857
-SHA1: ba9bb93e2d857960bba93b7fb21840d09be15d67
-SHA256: f2ae8bf31ad61d8aedf2fab804b4e881c3191a4faa3cb12d2621f5d7b6b4e8f6
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.7_iphoneos-arm64e.deb
+Size: 7430
+MD5sum: 0d4ab1f6903f2f7c01a1266831dc7660
+SHA1: cd4ab20761e91448d9d6fdb2f0071dee2ba07bd5
+SHA256: feab5cd19241fd5a3b0da61124d0707ebca068d05452753cdc04da005b1c1141
 Section: Tweaks
-Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for supported physical Home-button iPhones.
+Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for legacy Home-button iPhones.
 Author: Hoang Ngoc Duy
 Name: HomeGestHND
 
@@ -881,6 +897,22 @@ Size: 8074
 MD5sum: 2bfd30313a2f979cae7d143b869ddb57
 SHA1: 625b39dce327c6df3d63f61e964f2c4f6c4ddfd1
 SHA256: 7b8fabf326eed2f6e09e1a5b56939677e21e24661b43b270b8c8aced62f9f22c
+Section: Tweaks
+Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for supported physical Home-button iPhones.
+Author: Hoang Ngoc Duy
+Name: HomeGestHND
+
+Package: com.hnduy.homegesthnd
+Version: 0.1.8
+Architecture: iphoneos-arm64
+Maintainer: Hoang Ngoc Duy
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: HomeGestHND/com.hnduy.homegesthnd_0.1.8_iphoneos-arm64.deb
+Size: 8154
+MD5sum: d3f50da5e1f58c53ad27a31ec7f66857
+SHA1: ba9bb93e2d857960bba93b7fb21840d09be15d67
+SHA256: f2ae8bf31ad61d8aedf2fab804b4e881c3191a4faa3cb12d2621f5d7b6b4e8f6
 Section: Tweaks
 Description: iPhone X-style bottom Home gesture plus App Switcher close-all gesture for supported physical Home-button iPhones.
 Author: Hoang Ngoc Duy
@@ -952,22 +984,6 @@ Name: VietAI Assistant
 
 Package: com.vietai.assistant
 Version: 0.3.1
-Architecture: iphoneos-arm64e
-Maintainer: VietAI
-Installed-Size: 296
-Depends: firmware (>= 15.0), ellekit | mobilesubstrate
-Filename: VietAI-Assistant/com.vietai.assistant_0.3.1_iphoneos-arm64e.deb
-Size: 40292
-MD5sum: 941c8e1b1b8e5dd2b3767ad96ed3dad3
-SHA1: 87096d7b9ea0c66516eb158f6ebcd6c4930dc7b9
-SHA256: 76f67be8eb5ce7477770a8d6671e1e41a5ccc7093121cbe937afd09aa7fa5ee3
-Section: Tweaks
-Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
-Author: VietAI
-Name: VietAI Assistant
-
-Package: com.vietai.assistant
-Version: 0.3.1
 Architecture: iphoneos-arm64
 Maintainer: VietAI
 Installed-Size: 648
@@ -977,6 +993,22 @@ Size: 57984
 MD5sum: e7013b85efdd2f3e413de7f0499539f3
 SHA1: ed760565d53c373669a67a1f69d1ba00c1a1086d
 SHA256: 5d8004a698480b5cc0f005d5d3766004f92de1690ec33b1dfc524957b7709a64
+Section: Tweaks
+Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
+Author: VietAI
+Name: VietAI Assistant
+
+Package: com.vietai.assistant
+Version: 0.3.1
+Architecture: iphoneos-arm64e
+Maintainer: VietAI
+Installed-Size: 296
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate
+Filename: VietAI-Assistant/com.vietai.assistant_0.3.1_iphoneos-arm64e.deb
+Size: 40292
+MD5sum: 941c8e1b1b8e5dd2b3767ad96ed3dad3
+SHA1: 87096d7b9ea0c66516eb158f6ebcd6c4930dc7b9
+SHA256: 76f67be8eb5ce7477770a8d6671e1e41a5ccc7093121cbe937afd09aa7fa5ee3
 Section: Tweaks
 Description: Trợ lý tiếng Việt rảnh tay có hội thoại, xác nhận cuộc gọi/tin nhắn và ActionKit an toàn cho iOS 15+
 Author: VietAI
