@@ -1,2 +1,3 @@
+d733cde7f603ab88f8240b231cc967bc0f9efb00c580d4a2c5fbd1cbed3650df  ASPPPHND-4.5.55-build90-trollstore.ipa
 5713c1a3fe56f5d74a28465e108248648d2f2ae46bd432096ce330c7287db78a  ASPPPHND-4.5.54-build89-trollstore.ipa
 1cb12d40fc7366cc2fe70fe4991e0fd7ae028af9344d327649f25886512368be  ASPPPHND-4.5.52-build87-trollstore.ipa
