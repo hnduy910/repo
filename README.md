@@ -420,3 +420,7 @@ upstream implementation.
 8. Repeat on at least one iOS 15 and one iOS 16 device under Dopamine/ElleKit.
 9. Long-press the App Store icon and confirm the native actions remain present
    alongside **Chuyển tài khoản** and **Thêm tài khoản**.
+
+## ASPPPHND IPA
+
+Public binary-only IPA releases are available under [`ASPPPHND/`](ASPPPHND/). Source code is maintained privately.
